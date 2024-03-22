@@ -56,52 +56,26 @@ The schedule for the different curricula are listed here:
 {% elsif site.curriculum == "dc-ecology" %}
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Today</h3>
     <table class="table table-striped">
       <tr>
 	<td>Before starting</td>
 	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr><td>AfterNoon</td> <td> <a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Data visualization with ggplot2</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#building-your-plots-iteratively">Building your plots iteratively</a></td></tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Topics</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
-      </tr>
-    </table>
+      <tr><td></td><td><a href="https://datacarpentry.org/astronomy-python/05-select.html"></a>loading the Organized & cleaned spreadsheet/data frame</td></tr>
+      <tr><td> </td> <td> <a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html#counting"></a> Do a counting Analysis on the data</td></tr>
+      <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#building-your-plots-iteratively">create a ploting area</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#building-your-plots-iteratively">map the filtered data frame with the ploting area</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#building-your-plots-iteratively">Applying facets</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#building-your-plots-iteratively">Labeling the plot and appling a theme</a></td></tr>
+    </table>	  
   </div>
 </div>
 
