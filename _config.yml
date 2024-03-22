@@ -7,7 +7,7 @@
 
 # Which carpentry is this ("swc", "dc", "lc", or "cp")?
 # swc: Software Carpentry
-#  dc: Data Carpentry
+dc: Data Carpentry
 #  lc: Library Carpentry
 #  cp: Carpentries (to use for instructor training for instance)
 #  incubator: for workshops teaching a lesson in The Carpentries Incubator
